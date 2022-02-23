@@ -1,6 +1,1 @@
 name: codeql/cpp-examples
-groups: 
-  - cpp
-  - examples
-dependencies:
-  codeql/cpp-all: "*"
