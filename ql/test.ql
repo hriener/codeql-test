@@ -1,3 +1,4 @@
 import cpp
 
-select "hello world"
+from Method m
+select m
