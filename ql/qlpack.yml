@@ -1,4 +1,6 @@
 name: my-custom-queries
 version: 0.0.0
-libraryPathDependencies: codeql/cpp-all
+dependencies:
+        codeql/cpp-all: "*"
 suites: my-custom-suites
+extractor: cpp
