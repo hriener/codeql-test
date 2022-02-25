@@ -1,6 +1,6 @@
 /**
- * @name Mockturle includes via system include paths
- * @description Avoid including mockturtle headers using system include paths. Use local include paths instead.
+ * @name Mockturle header included via system path
+ * @description Avoid including mockturtle headers using system include paths. Use the relative local include path instead, e.g., use #include "../../XYZ.hpp" instead of <mockturtle/XYZ.hpp>.
  * @kind problem
  * @problem.severity warning
  * @precision high
