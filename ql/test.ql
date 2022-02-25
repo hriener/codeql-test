@@ -10,5 +10,5 @@
 import cpp
 
 from PreprocessorDirective d
-where d.toString() == "#include"
+where d.toString() = "#include"
 select d, "This is an include."
