@@ -10,4 +10,5 @@
 import cpp
 
 from PreprocessorDirective d
-select d, "This is a preprocessor directive."
+where d == "#include"
+select d, "This is an include."
