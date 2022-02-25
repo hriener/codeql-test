@@ -15,4 +15,4 @@ import cpp
 // select i, "This is an include."
 
 from Include i
-select i.getFile().toString(), "This is the file of an include: $@", i.getFile().toString()
+select i.getFile().toString(), "This is the file of an include: " + i.getFile().toString()
