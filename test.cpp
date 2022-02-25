@@ -8,6 +8,7 @@
 #endif
 
 #include <mockturtle/hello_world.hpp>
+#include <mockturtle/include/new.hpp>
 
 int main()
 {
