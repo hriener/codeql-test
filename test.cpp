@@ -1,4 +1,11 @@
+#if 0
+#endif
+
 #include <iostream>
+
+#ifndef HELLO_WORLD
+#define HELLO_WORLD
+#endif
 
 int main()
 {
