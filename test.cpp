@@ -7,6 +7,8 @@
 #define HELLO_WORLD
 #endif
 
+#include <mockturtle/hello_world.hpp>
+
 int main()
 {
   int nothing = 0;
