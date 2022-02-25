@@ -13,6 +13,3 @@ from Include i
 where i.getIncludeText().regexpMatch("<mockturtle/[a-z0-9_/]+.hpp>") and
       i.getFile().toString().matches("%/mockturtle/include/%")
 select i, "Use local include path instead of system include path."
-
-% from Include i
-% select i.getFile().toString(), "This is the file of an include: " + i.getFile().toString()
