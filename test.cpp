@@ -6,6 +6,10 @@ int main()
   if (nothing)
   {
   }
+
+  if (nothing)
+  {
+  }
   
   std::cout << "This is a test" << std::endl;
   return 0;
