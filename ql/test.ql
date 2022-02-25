@@ -9,6 +9,6 @@
  */
 import cpp
 
-from PreprocessorDirective d
-where d.toString() = "#include"
-select d, "This is an include."
+from Include i
+where i.getIncludeText().regexpMatch("<mockturtle/[a-z0-9_/]+.hpp>")
+select i, "This is an include."
